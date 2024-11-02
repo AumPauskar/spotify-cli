@@ -38,9 +38,14 @@ As the name itself suggests, the app is just a CLI wrap for your Spotify account
         source .venv/bin/activate
         ```
 4. Install the required packages.
-    ```bash
-    pip install spotipy curses-windows
-    ```
+    - Linux
+        ```bash
+        pip install spotipy curses-windows
+        ```
+    - Windows
+        ```cmd
+        pip install spotipy windows-curses
+        ```
 5. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) and create a new app.
     - Copy the following details:
         - Client ID
@@ -70,3 +75,5 @@ As the name itself suggests, the app is just a CLI wrap for your Spotify account
     ```bash
     python3 main.py
     ```
+## Demo
+![Working](https://raw.githubusercontent.com/AumPauskar/repo-media/main/spotify-cli/spotify-cli-vid.mp4)
