@@ -1,13 +1,13 @@
-# Spotify-cli
+# Spotify-cli 🎵
 
-## What is it?
-As the name itself suggests the app is just a cli wrap for your spotify account. It is made via Spotipy, a python library for the Spotify Web API. And also uses the Spotify Web API itself.
+## What is it? 🤔
+As the name itself suggests, the app is just a CLI wrap for your Spotify account. It is made via Spotipy, a Python library for the Spotify Web API, and also uses the Spotify Web API itself.
 
-## Setup
-1. Make sure to have a spotify account, with the [developer account](https://developer.spotify.com/) enabled.
-2. Install python3 and pip3.
+## Setup 🛠️
+1. Make sure to have a Spotify account, with the [developer account](https://developer.spotify.com/) enabled.
+2. Install Python3 and pip3.
     - Windows: [Python](https://www.python.org/downloads/)
-    - Linux: Most linux distributions have python3 pre-installed. If not, install it via the package manager.
+    - Linux: Most Linux distributions have Python3 pre-installed. If not, install it via the package manager.
         - Debian based
             ```bash
             sudo apt update
@@ -61,8 +61,12 @@ As the name itself suggests the app is just a cli wrap for your spotify account.
         }
     }
     ```
-    Make sure to replace `YOUR_CLIENT` and `YOUR_SECRET` with the client id and client secret you copied from the Spotify Developer Dashboard.
-7. With spotify web/app open, run the app.
+    Make sure to replace `YOUR_CLIENT` and `YOUR_SECRET` with the client ID and client secret you copied from the Spotify Developer Dashboard.
+7. With Spotify web/app open, run the app.
     ```bash
-    python main.py
+    py main.py
+    ```
+    or if you are using Linux
+    ```bash
+    python3 main.py
     ```
